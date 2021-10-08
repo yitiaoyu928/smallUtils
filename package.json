@@ -1,0 +1,25 @@
+{
+  "name": "small-utils",
+  "version": "1.0.2",
+  "description": "一个前端工具",
+  "main": "main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "webpack"
+  },
+  "keywords": [
+    "small-utils",
+    "debounce",
+    "throttle",
+    "flatArray",
+    "trimSpace",
+    "largeNumberAdd"
+  ],
+  "author": "SevenFish",
+  "license": "ISC",
+  "devDependencies": {
+    "terser-webpack-plugin": "^5.2.4",
+    "webpack": "^5.57.1",
+    "webpack-cli": "^4.8.0"
+  }
+}
